@@ -1,0 +1,60 @@
+---
+author: bydiao
+comments: true
+date: 2013-05-14 12:42:17+00:00
+layout: post
+slug: '%e7%94%a8python%e5%8f%91%e6%96%b0%e6%b5%aa%e5%be%ae%e5%8d%9a'
+title: 用python发新浪微博
+wordpress_id: 341
+categories:
+- python
+tags: [python]
+---
+
+最近刚考过几门试，研究生的学分基本顺利拿到。终于找到一个还算成体系，有理论基础的研究方向。接下来的几个月将会是充实而忙碌的。
+
+到了研究生阶段，学的东西越来越专。专有专的好处，当然有其坏处。需要活用一下二八法则。一定要把百分之二十的时间放在其他更广泛的知识获取上。尽管未来几个月的主题是学术研究，我还是决定用百分之二十的时间来学习python，看几本龙应台的散文集。
+
+python之所以吸引我，是我学习他的动机。之前学习的语言，都是学完了大概，不知道用在何处。而与python的几次接触，却都是我知道要实现什么应用，突然发现python有很简单高效的实现，信手拈来，问题迎刃而解。于是便决定自学python。
+
+自学python的笔记待日后整理发布，主要是基于雨痕的Python学习笔记。
+
+这里仅整理几篇python的实际小应用。
+
+python支持新浪微博的各种操作，只要你在web上能够实现的操作，都可以用python写一个微博机器人来实现，当然，新浪会对你的流量和权限做一些限制。
+
+要想用微博机器人成功发布一条微博，你先要做一下两步工作：
+1.有一个开发者账号，并申请开发一个应用，获取APP_KEY，APP_SECRET,REDIRECT_URL
+2.python安装廖雪峰的开发包
+
+	pip install sinaweibopy
+
+
+利用新浪微博应用发布微博，需要用户授权给应用。这里我将自己的微博授权给我自己的应用，通过回调地址，可以获取一个密码，利用这个密码获取操作权限口令，经过认证后，应用才有一些列微博操作的权限。下面的代码描述了这个过程
+
+
+	import weibo
+	APP_KEY = 'keyxxx'
+	APP_SECRET = 'Secretxxx'
+	CALLBACK = 'httpxxx'
+	client = weibo.APIClient(APP_KEY,APP_SECRET,CALLBACK)
+	url = client.get_authorize_url()
+
+	#这里url就是一个授权地址，用浏览器打开他，返回一个url中就包含了code
+
+	code='url中的code'
+
+	r = client.request_access_token(code,CALLBACK)
+
+	#r中包含了口令
+	access_token = r.access_token
+	expires_in = r.expires_in
+	#验证口令
+	client.set_access_token(access_token,expires_in)
+
+	#至此，即通过了权限验证，可以用client进行一些列微博操作了，最简单的就是发布一条微博
+
+	client.statuses.update.post(status=u'test plain weibo')
+	#微博内容为 test plain weibo
+
+

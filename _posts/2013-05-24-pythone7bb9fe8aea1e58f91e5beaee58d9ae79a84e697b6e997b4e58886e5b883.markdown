@@ -1,0 +1,70 @@
+---
+author: bydiao
+comments: true
+date: 2013-05-24 04:15:59+00:00
+layout: post
+slug: python%e7%bb%9f%e8%ae%a1%e5%8f%91%e5%be%ae%e5%8d%9a%e7%9a%84%e6%97%b6%e9%97%b4%e5%88%86%e5%b8%83
+title: python统计发微博的时间分布
+wordpress_id: 356
+categories:
+- python
+tags: [python]
+---
+
+对python编程越来越有兴趣，原因可能是因为它能很快的实现我的想法。相比于看论文，写论文，编程确实是一项线性的工作。
+
+近来刷微博的时候，发现某同学经常在工作时间发微博，突发奇想，可以通过统计用户发微博的时间分布来获取一个人的生活作息。当然，这需要该用户是一个微博活跃用户。
+
+主要用到了新浪SDK的statuses/time_line，用于获取某一uid用户的所有微博信息，返回json格式，通过json解析，我们可以得到用户所有微博的发布时间，对时间字符串做简单的解析和统计，我们就可以得到一个用户24小时发微博的频率分布。
+
+python实现代码如下：
+
+
+	def stattime(uid):
+		weibo_list = api.statuses.user_timeline.get(uid=uid)
+		total = weibo_list['total_number']
+		cursor = 0
+		eachpage = 100
+		page=1
+		h_list = [0 for x in range(24)]
+
+		print total
+		while cursor < total:
+			weibo_list =	 api.statuses.user_timeline.get(uid=uid,count=eachpage,page=page)
+			content = weibo_list['statuses']
+			for c in content:
+
+				hour1 = int(c['created_at'][11])
+				hour2 = int(c['created_at'][12])
+				hour = hour1 * 10 + hour2
+
+				h_list[hour] += 1
+			page += 1
+			cursor += eachpage
+		a = 0
+		for x in h_list:
+			print a, x
+			a += 1
+
+
+其中最核心的函数为
+
+	weibo_list = api.statuses.user_timeline.get(uid=uid,count=eachpage,page=page)
+
+返回第page页微博的json数组，每页eachpage条
+
+json中，“created_at”的格式为
+	
+	Mon Dec 05 00:30:39 +0800 2011
+
+
+对此进行解析，统计即可。
+
+下面是对两个好友的统计结果，可以看出二人的作息时间有很大差别。
+
+![](http://i.imgur.com/F8Uj6jf.jpg)
+
+![](http://i.imgur.com/PI0VS6v.jpg)
+
+一个早睡早起，白天发微博很多。
+一个晚睡晚起，睡前发微博很多

@@ -1,0 +1,84 @@
+---
+author: bydiao
+comments: true
+istop: true
+date: 2013-10-30 01:37:26+00:00
+layout: post
+slug: cc-%e7%a8%8b%e5%ba%8f%e8%b0%83%e8%af%95%e6%80%bb%e7%bb%93
+title: 总结贴
+wordpress_id: 496
+categories: [总结帖]
+tags: [总结帖]
+---
+
+**以下是对C/C++ 程序调试中问题的总结**
+
+
+
+	
+  1. **[函数返回指针](http://blog.diaoboyu.cn/?p=490)**
+
+	
+  2. **[char* 和 char[]](http://blog.diaoboyu.cn/?p=469)**
+
+	
+  3. **[C++中string与char*的转换](http://blog.diaoboyu.cn/?p=367)**
+
+	
+  4. **[STL中的find](http://blog.diaoboyu.cn/?p=371)**
+
+	
+  5. **[C脑筋急转弯与宏定义](http://blog.diaoboyu.cn/?p=417)**
+
+	
+  6. **[GTK编程总结](http://blog.diaoboyu.cn/?p=506)**
+
+
+**以下是.NET程序调试中的问题总结**
+
+
+
+	
+  1. **[ListView 多列数据绑定的实现](http://blog.diaoboyu.cn/?p=58)**
+
+	
+  2. **[.Net下执行cmd命令行](http://blog.diaoboyu.cn/?p=93)**
+
+	
+  3. **[只运行一个程序实例的实现](http://blog.diaoboyu.cn/?p=110)**
+
+	
+  4. **[.Net 下互斥量的使用](http://blog.diaoboyu.cn/?p=204)**
+
+	
+  5. **[.Net 下实现网络调试助手](http://blog.diaoboyu.cn/?p=261)**
+
+	
+  6. **[WPF动画效果初探](http://blog.diaoboyu.cn/?p=304)**
+
+	
+  7. **[.NET反射技术与插件编程](http://blog.diaoboyu.cn/?p=323)**
+
+	
+  8. **[浅谈WPF数据关联(Binding)](http://blog.diaoboyu.cn/?p=399)**
+
+	
+  9. **[.Net 实现连接超时可控的TcpClient类](http://blog.diaoboyu.cn/?p=413)**
+
+
+**以下是Hadoop 学习总结，及Java编程总结**
+
+
+
+	
+  1. **[hadoop生态系统](http://blog.diaoboyu.cn/?p=454)**
+
+	
+  2. **[HDFS（1）: HDFS初探及读写原理](http://blog.diaoboyu.cn/?p=458)**
+
+	
+  3. **[HDFS（2）: HDFS的四类Shell脚本](http://blog.diaoboyu.cn/?p=465)**
+
+	
+  4. 
+
