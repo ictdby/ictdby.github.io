@@ -5,7 +5,7 @@ kramdown:
 comments :
    provider: disqus
    disqus:
-     short_name:  joearmstrongsblog
+     short_name:  boyudiao
 
 name: Boyu's blog
 description: Diaoboyu Blog and Homepage
