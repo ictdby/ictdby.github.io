@@ -1,4 +1,4 @@
-markdown: KramdownPygments
+markdown: kramdown
 kramdown:
   auto_ids: true
   footnote_nr: 1
