@@ -1,6 +1,5 @@
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: KramdownPygments
+
 
 comments :
    provider: disqus
