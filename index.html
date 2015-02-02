@@ -1,17 +1,35 @@
 ---
-layout: blank
+layout: default_2
+title: Joe Armstrong
 ---
-    {% for page in site.posts %}
-    <article>
-      <header>
-        <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-        <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | join: ','}}{% endif %}</p>
-      </header>
-      <div>
-{{ page.excerpt }}
-      </div>
-      <footer>
-        <p><a href="{{ page.url | prepend: site.baseurl }}">{{ site.more }} &raquo;</a></p>
-      </footer>
-    </article>
+
+<div id="home">
+  <h2>Blog Posts</h2>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+  </ul>
+
+  <h2>Movies</h2>
+
+  <ul>
+    <li>
+      <a href="https://www.youtube.com/watch?v=qyVvGjNjBOA">Erlang - the movie</a> The original Erlang movie - before my hair went grey
+    </li>
+
+    <li> <a href="http://www.gar1t.com/blog/2013/03/21/erlang-the-movie-ii-the-sequel/">Erlang the movie II - the sequel</a> OTP rebranded as <i>Outlaw Techno Psychobitch</i>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=u41GEwIq2mE&list=UUDLl_-lfEBsXw0EbVkhKviQ">
+	Erlang Interview at Rackspace</a> Good overview of the history of Erlang
+	and what problems Erlang solves.
+    </li>
+
+  </ul>
+  <p></p>
+
+</div>
+
