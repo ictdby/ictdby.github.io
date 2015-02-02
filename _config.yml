@@ -1,13 +1,10 @@
-markdown: rdiscount
-highlighter: true
-rdiscount:
-  extensions: [smart, autolink]
+markdown: kramdown
 
 comments :
    provider: disqus
    disqus:
-     short_name:  joearmstrongsblog
+     short_name:  BoyuDiao
 
-name: Joe Armstrong's blog
-description: Joe Armstrong's Erlang and other stuff blog
-url: http://joearms.github.com
+name: BoyuDiao's blog
+description: 思而进取，勤于笔耕
+url: http://ictdby.github.com
