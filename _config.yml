@@ -1,8 +1,8 @@
 # Site settings
 title: Boyu Diao
 description: 'Boyu Diao'
-url: 'http://ictdby.github.io/index'
-baseurl: '/'
+url: 'http://ictdby.github.io'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
