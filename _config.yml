@@ -1,18 +1,18 @@
 # Site settings
-title: Boyu Home
-description: 'Thinking makes the difference. Writting leads to Success'
-url: 'http://diaoboyu.cn'
-baseurl: '/'
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Diaoboyu'
-  email: bitcsdby@gmail.com.com
-  twitter_username: diaoboyu
-  facebook_username: bitcsdby
-  github_username:  bitcsdby
-  linkedin_username:  bitcsdby
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
 
 defaults:
   -
@@ -37,4 +37,3 @@ kramdown:
 
 gems: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-
