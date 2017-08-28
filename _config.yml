@@ -2,7 +2,7 @@
 title: Boyu Diao
 description: 'Boyu Diao`s Blog'
 url: 'http://diaoboyu.cn'
-baseurl: '//'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
