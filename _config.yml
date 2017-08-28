@@ -9,10 +9,7 @@ baseurl: '/'
 author:
   name: 'Boyu Diao'
   email: bitcsdby@gmail.com
-  twitter_username: diaoboyu
-  facebook_username: diaoboyu
   github_username:  bitcsdby
-  linkedin_username:  diaoboyu
 
 defaults:
   -
