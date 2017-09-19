@@ -18,7 +18,7 @@ layout: default
     {% for post in paginator.posts %}
       <li class="card-panel hoverable">
       	
-        <span class="grey-text right">  Date: {{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="grey-text right">  Date: {{ post.date | date: "%b %-d, %Y" }} &nbsp; &nbsp;</span>
         <span class="grey-text right">  Category: {{ post.categories }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 <!--
