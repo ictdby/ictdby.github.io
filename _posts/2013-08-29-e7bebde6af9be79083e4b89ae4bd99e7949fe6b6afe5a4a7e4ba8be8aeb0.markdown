@@ -4,9 +4,7 @@ comments: true
 date: 2013-08-29 03:00:13+00:00
 layout: post
 istop: true
-slug: '%e7%be%bd%e6%af%9b%e7%90%83%e4%b8%9a%e4%bd%99%e7%94%9f%e6%b6%af%e5%a4%a7%e4%ba%8b%e8%ae%b0'
 title: 我的羽毛球业余生涯
-wordpress_id: 424
 categories:
 - 生活随笔
 tags: [生活随笔]

@@ -3,9 +3,7 @@ author: bydiao
 comments: true
 date: 2013-08-28 12:22:15+00:00
 layout: post
-slug: c%e8%af%ad%e8%a8%80%e8%84%91%e7%ad%8b%e6%80%a5%e8%bd%ac%e5%bc%af
 title: C语言脑筋急转弯
-wordpress_id: 417
 categories: [技术杂汇]
 tags: [CPP&STL]
 ---
