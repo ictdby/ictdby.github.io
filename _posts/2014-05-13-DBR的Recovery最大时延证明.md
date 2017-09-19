@@ -1,7 +1,7 @@
 ---
 author: bydiao
 layout: post
-title: DBR Recovery 最大时延证明
+title: DBR的Recovery最大时延证明
 mathjax： true
 categories: [WSN]
 tags: [DBR, UWSN]
