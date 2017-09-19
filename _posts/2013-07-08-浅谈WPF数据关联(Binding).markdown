@@ -6,8 +6,8 @@ layout: post
 
 title: 浅谈WPF数据关联(Binding)
 wordpress_id: 399
-categories: [Windows编程&.NET]
-tags: [Windows编程&.NET]
+categories: [.NET]
+tags: [.NET]
 ---
 
 1 WPF&Silverlight中的数据关联(Binding)
