@@ -19,7 +19,7 @@ layout: default
       <li class="card-panel hoverable">
       	<a class="post-link" style="width:50%;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       		<span class="grey-text left" >Category: {{ post.categories }} </span>
-        	<span class="grey-text right" >Date: {{ post.date | date: "%b %-d, %Y" }} </span>
+        	<span class="grey-text right" >Date: {{ post.date | date: "%b %dd, %Y" }} </span>
 
 <!--
         <button data-target="{{ post.id | remove: '%' | replace: '/', '_' }}" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
