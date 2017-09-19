@@ -6,7 +6,7 @@ layout: post
 
 title: 浅谈WPF数据关联(Binding)
 wordpress_id: 399
-categories: [.NET]
+categories: [.NET&CPP]
 tags: [.NET]
 ---
 
