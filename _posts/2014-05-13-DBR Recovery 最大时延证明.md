@@ -1,12 +1,10 @@
 ---
+author: bydiao
 layout: post
 title: DBR Recovery 最大时延证明
 mathjax： true
 categories: [WSN]
-date: 2014-05-13
-tags:
-- DBR
-- UWSN
+tags: [DBR, UWSN]
 ---
 
 首先列出两个函数，一个是round trip时延函数，一个是holding time函数
