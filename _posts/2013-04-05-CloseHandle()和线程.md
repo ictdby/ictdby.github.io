@@ -5,7 +5,7 @@ date: 2013-04-05 07:47:10+00:00
 layout: post
 title: CloseHandle()和线程
 
-categories: [.NET&CPP]
+categories: [.NET/CPP]
 tags: [.NET]
 ---
 
