@@ -29,8 +29,8 @@ permalink: /category/
       <div class="collapsible-body">
         {% for post in site.categories[word] %}{% if post.title != null %}
           <ul>
-            <li style="font-family:courier new;"> 
-              {{ post.date | date: "%Y-%m-%d" }} &nbsp;&nbsp; >> &nbsp;&nbsp; 
+            <li > 
+              <div style="font-family:courier new;" >{{ post.date | date: "%Y-%m-%d" }} &nbsp;&nbsp; >> &nbsp;&nbsp; </div>
               <a class="category-link" href="{{ post.url | prepend: site.baseurl }}"> 
                 {{ post.title }} 
               </a> 
