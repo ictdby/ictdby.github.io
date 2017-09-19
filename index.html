@@ -18,8 +18,8 @@ layout: default
     {% for post in paginator.posts %}
       <li class="card-panel hoverable">
       	
-        <span class="grey-text right">  Date: {{ post.date | date: "%b %-d, %Y" }} </span>
-        <span class="grey-text right">  Category: {{ post.categories }} &nbsp; &nbsp;</span>
+        <span class="grey-text right">Date: {{ post.date | date: "%b %-d, %Y" }} </span>
+        <span class="grey-text right">Category: {{ post.categories }} &nbsp; </span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 <!--
         <button data-target="{{ post.id | remove: '%' | replace: '/', '_' }}" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
