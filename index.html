@@ -17,9 +17,10 @@ layout: default
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
       <li class="card-panel hoverable">
-        <span class="grey-text right">{{ post.date | date: "%b %-d, %Y" }}</span>
+      	<span class="grey-text right">Category: {{ post.category }}</span>
+        <span class="grey-text right">Date: {{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
+<!--
         <button data-target="{{ post.id | remove: '%' | replace: '/', '_' }}" class="waves-effect waves-light btn modal-trigger" style="padding: 0 1.2rem;">overview<i class="mdi mdi-send right"></i></button>
 
         <div id="{{ post.id | remove: '%' | replace: '/', '_' }}" class="modal modal-fixed-footer">
@@ -32,6 +33,7 @@ layout: default
             <a class="modal-action modal-close waves-effect btn-flat grey-text text-darken-4 left">close</a>
           </div>
         </div>
+ -->     
       </li>
     {% endfor %}
   </ul>
