@@ -1,0 +1,58 @@
+---
+author: bydiao
+comments: true
+date: 2013-06-13 13:48:22+00:00
+layout: post
+title: 在PyPI上发布Python代码
+categories:
+- python
+tags: [python]
+---
+
+京东打折，入手Head First Python一书，一看行文风格就知道是一个外国大牛写的，图文并茂，生动形象。
+
+第一章按惯例，讲了列表，元组，字典三大经典数据结构，第二章上来就用一个函数优化的例子，讲了函数的定义，缺省参数，名字空间等一系列定义，同时很自然的讲了如何在PyPI上发布自己的Python代码包，与全世界程序员共享自己的代码。
+
+具体做法如下:
+
+1.假设你的代码文件命名为boyudiao.py,将其拖入一个文件夹内，创建setup.py文件,键入代码如下：
+
+
+	from distutils.core import setup
+
+	setup(
+        name = 'weibo2',
+        version = '1.0.0',
+        py_modules= ['weibo2'],
+        author = 'diaoboyu',
+        author_email = 'diaoboyu2012@ict.ac.cn',
+        url = 'diaoboyu.cn',
+        description = 'A simple sina weibo auth funcation',)
+
+在终端（windows的CMD）下，通过以下命令，封装模块
+
+
+	python setup.py sdist
+
+
+通过以下命令，可将生成的模块安装到本地的lib中
+
+	python setup.py install
+
+
+这时会生成sdist和build两个文件夹，其中sdist放了模块的发布包，build则放置了源代码的副本。
+
+后面的工作，需要你到[pypi.python.org](http://pypi.python.org)去注册。
+
+注册完成后，可通过以下命令，发布自己的模块,注册后，仍需要登录一下
+
+	python setup.py resister
+
+![](http://i.imgur.com/AeiNr5C.jpg)
+[code lang="shell"]
+python setup.py sdist upload
+[/code]
+![](http://i.imgur.com/rdsZknb.jpg)
+
+这样，你就成功的把你自己开发的模块上传到PyPI中，与全世界的程序员共享了。
+
