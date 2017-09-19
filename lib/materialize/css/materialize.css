@@ -4500,7 +4500,7 @@ small {
 
 .card-panel {
   transition: box-shadow .25s;
-  padding: 30px;
+  padding: 42px;
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff;
