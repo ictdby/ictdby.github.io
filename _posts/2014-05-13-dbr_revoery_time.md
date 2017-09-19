@@ -17,12 +17,12 @@ $$p(d) = \frac{2d}{\sin\theta \cdot v_0}$$
 
 $$t(d) = f(d) + p(d)$$
 
-取$\delta = R$
-则$t(d) = 2\tau-\frac{2\tau d}{R} + \frac{2d}{\sin\theta \cdot v_0}$
+取$$\delta = R$$
+则$$t(d) = 2\tau-\frac{2\tau d}{R} + \frac{2d}{\sin\theta \cdot v_0}$$
 
-d 属于$(0,R]$
+d 属于$$(0,R]$$
 
-取d = $\frac{R}{n}$,其中n 属于 [1,$\infty$)
+取d = $$\frac{R}{n}$$,其中n 属于 [1,$$\infty$$)
 
 则 
 $$t(n) = 2\tau-\frac{2\tau}{n}+\frac{2\tau}{\sin\theta \cdot n}$$
