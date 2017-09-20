@@ -23,7 +23,7 @@ B(N,k) 的定义是，某一个k，对于N个输入，最大dichotomies(分类)�
 shatter，的定义，在任意k个点不能有$$2^k$$种可能的前提下，$$m_\mathcal{H}(N) = 2^N$$，则称N对于k，可shatter
 B(N,k) 是$$m_\mathcal{H}(N)$$ 的上限。
 
-![Alt text](./捕获.PNG)
+![Alt text](http://pic.yupoo.com/bitcsdby/GLb5OdXm/medish.jpg)
 
 
 因此我们得到 $$m_\mathcal{H}(N) \leq B(N,k) \leq N^{k-1}$$
