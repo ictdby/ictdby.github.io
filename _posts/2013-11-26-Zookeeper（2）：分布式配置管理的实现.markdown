@@ -8,6 +8,7 @@ categories: [Big Data]
 tags: [Hadoop]
 ---
 
+
 Zookeeper为分布式系统提供协调统筹服务，其中最典型的便是分布式配置管理。
 简单的说，有100个节点，现在需要更新config文件，用scp来实现文件远程拷贝显然不太现实，这就需要Zookeeper大显身手了。
 
