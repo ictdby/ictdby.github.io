@@ -25,6 +25,7 @@ tags: [Spark]
 	|OutputFormat|MapredParquetOutputFormat|hive.ql.HiveSequenceFileOutputFormat|
 	
 3. 显然二者是不同的，现象就是saveAsTable存的表，hive读出来全部是null。
+
 4. spark邮件列表中，有人提到了这个问题。官方的回答是，spark的saveAsTable存成的表，就是不能通过hive访问的。如果想通过hive访问，在spark中，就需要通过sql执行。
 
 {% highlight Scala%}
