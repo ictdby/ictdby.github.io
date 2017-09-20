@@ -9,9 +9,6 @@ categories: [Big Data]
 tags: [Spark]
 ---
 
-# Spark saveAsTable Hive的Parquet 格式问题
-
-@(Spark)
 
 1. Serde
 	Serde is short for Serializer/Deserializer. Serde 允许Hive读取和写入任意用户自定义的表格格式。
