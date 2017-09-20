@@ -32,7 +32,7 @@ $$ h(x) = sign(\Sigma^N_{i=1}\omega_ix_i - threshold) $$
 3.  下图从几何上说明了PLA Correct的实质。
 	$$ cos\theta = \frac{\omega x}{|\omega||x|} $$
 	因此$sign(\omega x)$的实质，就是从原点到x点的向量，与法向量$$ \omega $$之间的夹角是在[$$ -\frac{\Pi}{2} $$,$$ \frac{\Pi}{2} $$]区间，还是在[$$ \frac{\Pi}{2}$$,$$\frac{3\Pi}{2}$$]区间。如果是前者，正确情况应该是对应+1，后者则对应-1。如果出现错误，则是+1的情况出现了[$$ \frac{\Pi}{2}$$,$$\frac{3\Pi}{2}$$区间的夹角，则需要将夹角拉回到[-$$-\frac{\Pi}{2}$$,$$\frac{\Pi}{2}$$]，或者是-1的情况出现了[$$-\frac{\Pi}{2}$$,$$\frac{\Pi}{2}]$$夹角，需要拉回到[$$\frac{\Pi}{2}$$,$$\frac{3\Pi}{2}]$$。如下图所示。
-![Alt text](image/MLF2_1.png)
+![Alt text](./MLF2_1.png)
 
 4.  PLA收敛性证明
 假设$$x\in D$$ 中的所有点线性可分，则存在一条直线，法向量为$$\omega_f^T$$
@@ -48,7 +48,9 @@ $$\omega_{f}\omega_{t+1} = \omega_f\omega_t + y_n\omega_fx_n$$
 则有
 
 $$y_n\omega_fx_n \geq y_n^i\omega_fx_n^i > 0$$
+
 $$\omega_{f}\omega_{t+1} > \omega_f\omega_t                    \qquad   (1)$$
+
 从几何上可知，两条向量的方向向着平行的方向变化。
 另有，PLA在出现错误的时候进行修正即修正时
 
