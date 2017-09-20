@@ -5,10 +5,11 @@ date: 2015-05-25 14:28:14+00:00
 layout: post
 title: Machine Learning Foundation 2
 categories: [Machine Learning]
+mathjax: true
 tags: [MLF]
 ---
 
-#MLF chapter 2
+# MLF chapter 2
 @(Machine Learning Foundation)
 感知机模型来解决Yes No问题
 
