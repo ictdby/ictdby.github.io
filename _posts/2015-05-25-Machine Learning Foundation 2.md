@@ -32,6 +32,7 @@ $$ h(x) = sign(\Sigma^N_{i=1}\omega_ix_i - threshold) $$
 3.  下图从几何上说明了PLA Correct的实质。
 	$$ cos\theta = \frac{\omega x}{|\omega||x|} $$
 	因此$sign(\omega x)$的实质，就是从原点到x点的向量，与法向量$$ \omega $$之间的夹角是在[$$ -\frac{\Pi}{2} $$,$$ \frac{\Pi}{2} $$]区间，还是在[$$ \frac{\Pi}{2}$$,$$\frac{3\Pi}{2}$$]区间。如果是前者，正确情况应该是对应+1，后者则对应-1。如果出现错误，则是+1的情况出现了[$$ \frac{\Pi}{2}$$,$$\frac{3\Pi}{2}$$区间的夹角，则需要将夹角拉回到[-$$-\frac{\Pi}{2}$$,$$\frac{\Pi}{2}$$]，或者是-1的情况出现了[$$-\frac{\Pi}{2}$$,$$\frac{\Pi}{2}]$$夹角，需要拉回到[$$\frac{\Pi}{2}$$,$$\frac{3\Pi}{2}]$$。如下图所示。
+	
 ![Alt text](http://pic.yupoo.com/bitcsdby/GLb3Tp7a/medish.jpg)
 
 4.  PLA收敛性证明

@@ -46,7 +46,9 @@ $$E_{out}(g) \leq E_{in}(g) + \sqrt{\frac{8}{N} ln(\frac{4(2N)^{d_{vc}}}{\delta}
 
 但这仅仅是理论上的解释，并不够practical
 
-如果我们从理论出发，很多问题是还是无法解决的![Alt text](http://pic.yupoo.com/bitcsdby/GLb3UEvp/medish.jpg)
+如果我们从理论出发，很多问题是还是无法解决的
+
+![Alt text](http://pic.yupoo.com/bitcsdby/GLb3UEvp/medish.jpg)
 
 
 如图所示，要满足既定的误差上线，我们需要3万个点来做学习，拿到30000个点是不太可能的。
