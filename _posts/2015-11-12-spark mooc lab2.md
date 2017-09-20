@@ -11,7 +11,7 @@ tags: [Spark]
 
 
 version 1.0.1
-# ![Spark Logo](http://spark-mooc.github.io/web-assets/images/ta_Spark-logo-small.png) + ![Python Logo](http://spark-mooc.github.io/web-assets/images/python-logo-master-v3-TM-flattened_small.png)
+![Spark Logo](http://spark-mooc.github.io/web-assets/images/ta_Spark-logo-small.png) + ![Python Logo](http://spark-mooc.github.io/web-assets/images/python-logo-master-v3-TM-flattened_small.png)
 # **Web Server Log Analysis with Apache Spark**
  
 #### This lab will demonstrate how easy it is to perform web server log analysis with Apache Spark.
