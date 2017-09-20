@@ -7,7 +7,7 @@ permalink: /category/
 <div><style>button { margin-bottom: 10px; }</style>
   <button class="waves-effect waves-light btn" onClick="expandAll();"><i class="mdi mdi-chevron-double-down left"></i>Expand</button>
   <button class="waves-effect waves-light btn" onClick="collapseAll();"><i class="mdi mdi-chevron-double-up left"></i>Collapse</button>
-  <span style="float:right font-size:18px">  <b>{{site.posts.size}}</b> Blogs in <b>{{site.categories.size}}</b> Categories</span>
+  <span style="float:right; font-size:18px;">  <b>{{site.posts.size}}</b> Blogs in <b>{{site.categories.size}}</b> Categories</span>
 </div>
 
 {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
