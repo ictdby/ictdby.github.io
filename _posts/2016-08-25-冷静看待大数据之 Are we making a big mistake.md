@@ -1,9 +1,10 @@
 ﻿---
 author: bydiao
 comments: true
-date: 2016-08-15 12:35:21+00:00
+date: 2016-08-25
 layout: post
 title: 冷静看待大数据之 Are we making a big mistake
+mathjax: true
 categories: [Big Data]
 tags: [Talk]
 ---
