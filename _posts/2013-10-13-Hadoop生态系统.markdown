@@ -7,7 +7,7 @@ slug: hadoop%e7%94%9f%e6%80%81%e7%b3%bb%e7%bb%9f
 title: Hadoop生态系统
 wordpress_id: 454
 categories:
-- Hadoop
+- Big Data
 tags: [Hadoop]
 ---
 

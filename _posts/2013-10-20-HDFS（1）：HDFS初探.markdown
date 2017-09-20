@@ -7,7 +7,7 @@ slug: hdfs%e5%88%9d%e6%8e%a2
 title: HDFS（1）：HDFS初探
 wordpress_id: 458
 categories:
-- Hadoop
+- Big Data
 tags: [Hadoop]
 ---
 

@@ -5,7 +5,7 @@ date: 2013-11-26 07:01:40+00:00
 layout: post
 title: Zookeeper的基本概念和部署
 categories:
-- Hadoop
+- Big Data
 tags: [Hadoop]
 ---
 

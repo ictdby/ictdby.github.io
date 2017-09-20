@@ -4,8 +4,7 @@ comments: true
 date: 2013-11-26 13:06:56+00:00
 layout: post
 title: Zookeeper（2）：分布式配置管理的实现
-categories:
-- Hadoop
+categories: [Big Data]
 tags: [Hadoop]
 ---
 
