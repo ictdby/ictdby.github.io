@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C++中string与char*的转换
-categories: [.NET/CPP]
+categories: [CPP/.NET]
 tags: [C++&STL]
 ---
 
