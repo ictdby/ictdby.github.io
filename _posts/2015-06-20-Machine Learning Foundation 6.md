@@ -1,9 +1,9 @@
 ---
 author: bydiao
 comments: true
-date: 2015-05-20 14:28:14+00:00
+date: 2015-06-20 14:28:14+00:00
 layout: post
-title: Machine Learning Foundation 1
+title: Machine Learning Foundation 6
 mathjax: true
 categories: [Machine Learning]
 tags: [MLF]
@@ -37,7 +37,7 @@ $$B(N,k) \leq \Sigma_{i=0}^{k-1}C(N,i)$$
 
 简单整理一下一些概念
 
-1. 假设集合大小 $$|M|$$
+1. 假设集合大小 |M|
 2. 有效假设集合大小 $$effective(N)$$
 3. 最小分割点 break point k
 4. 成长函数 Growth Function，$$m_h(N)$$
