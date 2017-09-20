@@ -3,7 +3,7 @@ author: bydiao
 comments: true
 date: 2016-08-25
 layout: post
-title: Big Data: Are We making a big mistake
+title: Big Data Are We making a big mistake
 mathjax: true
 categories: [Big Data]
 tags: [Talk]
