@@ -10,7 +10,7 @@ Your tagline.
 
 #### Introduction
 
-Introduce yourself.
+PhD in Institute Of Computing Technology, Chinese Academy Of Sciences; Bachelor in Beijing Institute of Technology; Childhood in Harbin, China.
 
 #### This theme
 
