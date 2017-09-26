@@ -1,7 +1,7 @@
 ---
 author: bydiao
 comments: true
-date: 2016-09-08
+date: 2017-03-08
 layout: post
 title: 大数据简史
 mathjax: true
