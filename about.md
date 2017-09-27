@@ -14,7 +14,7 @@ Childhood in Harbin, China.
 
 #### Research Interests
 
-Distributed System and Big Data Analysis, espically in IoT data storage and mining.
+Distributed System and Big Data Analysis, espically in IoT Data Storage and Mining.
 
 Three-dimensional Network Protocols, especially in Underwater Acoustic Sensor Networks.
 
