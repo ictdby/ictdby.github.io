@@ -26,6 +26,7 @@ All rights reserved by Torsten Juelich.
 |Organization|Chapters, Sections, Paragraphs, Sentences|
 
 5. A good Abstract
+
 ||
 |---|
 |One of two sentences providing a basic introduction to the field comprehensible to a scientist in any discipline.|
