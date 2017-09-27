@@ -14,9 +14,9 @@ Teacher: Torsten Juelich
 All rights reserved by Torsten Juelich.
 
 
-1. Writing is a way of bringing **Order** into your **Thinking**
-2. AIM of a paper:  Express your Analysis with **Clarity**, **Logic** and **Precision**
-3. Elements of writing: Audience, Style, Flow, Organization
+#### Writing is a way of bringing **Order** into your **Thinking**
+#### AIM of a paper:  Express your Analysis with **Clarity**, **Logic** and **Precision**
+#### Elements of writing: Audience, Style, Flow, Organization
 
 |Item|Content|
 |---|---|
@@ -25,9 +25,9 @@ All rights reserved by Torsten Juelich.
 |Flow|Time Adverbials, Linkers, -ed participles, Punctuation, Repetition, Conjunctions, this summary words, -ing clauses|
 |Organization|Chapters, Sections, Paragraphs, Sentences|
 
-5. A good Abstract
+#### A good Abstract
 
-||
+|General Steps|
 |---|
 |One of two sentences providing a basic introduction to the field comprehensible to a scientist in any discipline.|
 |Two to three sentences of more detailed background, comprehensible to scientists in related disciplines|
