@@ -9,10 +9,10 @@ categories: [技术杂汇]
 tags: [English]
 ---
 
-#### Elements of Style
+### Elements of Style
 
 
-##### Verbs
+#### Verbs
 
 Single long verbs are more scientific than phrasal verbs
 
@@ -26,7 +26,7 @@ Single long verbs are more scientific than phrasal verbs
 |look into|investigate|
 
 
-##### Formal Expression
+#### Formal Expression
 
 |informal|formal|
 |---|---|
@@ -37,13 +37,13 @@ Single long verbs are more scientific than phrasal verbs
 |getting bigger and bigger|is increasing|
 
 
-##### Pronouns
+#### Pronouns
 
 * Use We instead of I
 * Do not use You, use passive voice. You can see the results ->  The results can be seen in Table 1
 
 
-##### Contractions
+#### Contractions
 
 * full sytle is scientific than contractions
 * Choose the more formal negative form
@@ -55,7 +55,7 @@ Single long verbs are more scientific than phrasal verbs
 |does not have many|has few |
 
 
-##### Run-on Expression
+#### Run-on Expression
 
 |informal|formal|
 |---|---|
@@ -63,13 +63,13 @@ Single long verbs are more scientific than phrasal verbs
 |etc.|and other|
 |and so forth|and similar|
 
-##### Questions
+#### Questions
 
 * Avoid using direct questions: Why  What  When
 * Use indiret questions
 
 
-##### Adverbs
+#### Adverbs
 
 * Adverb at start or end of a sentence is informal.
 * Adverb better placed near the verb it refers to
@@ -79,7 +79,7 @@ Single long verbs are more scientific than phrasal verbs
 |Actually, formaldehyde| Formaldehyde is actually present in|
 |was developed by A, originally|was originally developed by A|
 
-##### Voice
+#### Voice
 
 ||Passive Voice|Active Voice|
 |---|---|---|
