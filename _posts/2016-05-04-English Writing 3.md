@@ -41,7 +41,7 @@ tags: [English]
 |---|---|---|
 |Conjuctions|Use a comma|and but, or|
 |Connector|use a semicolon or period|however, thus, also|
-|Subordinator|because, if, while|Use a comma.u|
+|Subordinator|because, if, while|Use a comma.|
 
 
 
