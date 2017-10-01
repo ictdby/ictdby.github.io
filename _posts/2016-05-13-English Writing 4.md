@@ -9,78 +9,56 @@ categories: [技术杂汇]
 tags: [English]
 ---
 
-### Flow
+### Organization
 
 
-#### Linkers
+#### External and Internal
 
-||Subordinators|Sentence Connectors|Phrase Linkers|
-|--|--|--|--|
-|Addition||furthermore,in addition, moreover|in addition to|
-|Adersativity|although, even though, despite the fact|however, nvertheless|despite, in spite of|
-|Cause and Effect|because, since|therefore, as a result, consequently, hence, thus|because of, due to, as a result|
-|Clarification||in other words, that is, i.e.||
-|Contrast|while, whereas|in contrast, however, on the other hand, conversely|unlike|
-|illustration||for example, for instance||
-|Intensification||on the contrary, as a matter of fact, in fact||
+External: Chapters, Sections, Paragraphs, Sentences
+Internal: 
 
-* avoid using meanwile in academic writing
-* use the most appropriate linker phrases to establish a clear and logical link between your statements
-* remember that the use of linking phrases differs somewhat between Chinese and English
-
-#### Punctuation
-
-* full stops, use it generously, in academic writing, shorter sentences are better.
-* comma, use for clauses, lists and with subordinators, use it with caution.
-* semicolons, used to break up longer sentences, seprating long items in a list, use it occasionally.
-* colons, used to introduce a list, compare with.
-
-#### Conjuctions
-
-||usage|examples|
-|---|---|---|
-|Conjuctions|Use a comma|and but, or|
-|Connector|use a semicolon or period|however, thus, also|
-|Subordinator|because, if, while|Use a comma.|
-
-
-
-||Instead|
+|Sections|Relations|
 |---|---|
-|BUT|In contrast, However, Unexpected, Surprisingly|
-|AND|In addition, Also, Furthermore, Importantly|
-|Thought|Only use after comma as part of a clause, even thouth |
+|Abstract, Results|Problem-Solution|
+|Beginning of Abstract, Introduction|General-Specific|
+|End of Abstract, Discussion|Specific-General|
+|Abstract, Introduction|Old-New|
+|Methods|Process|
 
 
-* do not use conjuctions to link two sentences
+#### General-Specific  Specific-General
 
-#### Repetition
+General-Specific:
+* General statement
+* Elaboration on statement
+* More detailed elaboration
+* Broader Statement
 
-* repeat of words is NOT a problem in academic writing
-* use -ed adjective instead passive verb
+Specific-General:
+* Specific/Narrow statement
+* Elaboration on statement
+* Broader Context
+* Concluding Generalization
 
-||Instead|
-|---|---|
-|were selected|selected strain|
-|was purified|purified strains|
+#### Problem-Solution
 
+Introducing the Solution:
+* There are two possible ways of handling this problem. The first...The second...
+* Several options are available to address this obstacle. However, the best one seems to be...
+* A radically different design/model is needed to overcome this limitation.
+* Recently, researchers have made significant progress in overcoming this difficulty by...
 
-#### Time adverbials
+#### Process
 
-once,first, next, then, finally, lastly
+* in most technical solutions, it is necessary to describe a process or a method
+* when describing a method you used to carry out research -> process description
+* use of verbs in passive voice common 
 
-#### ing Clauses
+Examples:
 
-* Prices rise, thus leading to a decrease in demand.
-* emphasize cause and effect  used in combination with 'thus'
-* once in a sentence to avoid ambiguity
+* To analyse the impact of cell-cell contact on IgA production, we next assessed the presence of cytokines in the supernatants of our co-cultures.
 
-#### This + summary word
+* To investigate whether MDSCs modulate B-cell responses in vivo, we first tested how MDSCs affect the activation state of splenic B cells in vivo.
 
-* phrase that summarizes what has already been mentioned in the
-preceding sentence
-* THIS sometimes used 'unsupported' by noun
-
-only do so if it is absolutely clear what THIS refers to!
 
 All content and rights reserved by Mr. Juelich
