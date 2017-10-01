@@ -22,7 +22,7 @@ tags: [English]
 |Clarification||in other words, that is, i.e.||
 |Contrast|while, whereas|in contrast, however, on the other hand, conversely|unlike|
 |illustration||for example, for instance||
-|Intensification||on the contray, as a matter of fact, in fact||
+|Intensification||on the contrary, as a matter of fact, in fact||
 
 * avoid using meanwile in academic writing
 * use the most appropriate linker phrases to establish a clear and logical link between your statements
@@ -53,5 +53,34 @@ tags: [English]
 
 
 * do not use conjuctions to link two sentences
+
+#### Repetition
+
+* repeat of words is NOT a problem in academic writing
+* use -ed adjective instead passive verb
+
+||Instead|
+|---|---|
+|were selected|selected strain|
+|was purified|purified strains|
+
+
+#### Time adverbials
+
+once,first, next, then, finally, lastly
+
+#### ing Clauses
+
+* Prices rise, thus leading to a decrease in demand.
+* emphasize cause and effect  used in combination with 'thus'
+* once in a sentence to avoid ambiguity
+
+#### This + summary word
+
+* phrase that summarizes what has already been mentioned in the
+preceding sentence
+* THIS sometimes used 'unsupported' by noun
+
+only do so if it is absolutely clear what THIS refers to!
 
 All content and rights reserved by Mr. Juelich
