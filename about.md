@@ -27,7 +27,7 @@ Three-dimensional Network Protocols, especially in Underwater Acoustic Sensor Ne
 
 2016  First-Class Scholarship of University of CAS
 
-2015  BeiWei Scholarship for Distinguished Doctorates
+2015  BeWinner Scholarship for Distinguished Doctorates
 
 2014  Outstanding Student of University of CAS
 
