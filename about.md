@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
+*Assistant Professor* in Institute of Computing Technology, Chinese Academy of Sciences,Beijing ,China
+
 #### Biography
 
-Assistant Professor in Institute of Computing Technology, Chinese Academy of Sciences
+2018 Ph.D., in Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China
 
-PhD in Institute of Computing Technology, Chinese Academy of Sciences; 
-
-Bachelor in School of Computer, Beijing Institute of Technology; 
+2012 B.S., Beijing Institute of Technology, Beijing, China 
 
 Childhood in Harbin, China.
 
