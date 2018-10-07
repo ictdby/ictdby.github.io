@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-#### Introduction
+#### Biography
+
+Assistant Professor in Institute of Computing Technology, Chinese Academy of Sciences
 
 PhD in Institute of Computing Technology, Chinese Academy of Sciences; 
 
@@ -22,6 +24,8 @@ Three-dimensional Network Protocols, especially in Underwater Acoustic Sensor Ne
 
 
 #### Awards
+
+2018  Outstanding Graduate of Beijing
 
 2017  National Scholarship for Distinguished Doctorates
 
